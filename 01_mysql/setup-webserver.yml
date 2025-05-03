@@ -1,0 +1,6 @@
+---
+- name: Set up web servers and deploy HTML page
+  hosts: webserver
+  become: yes
+  roles:
+    - webserver
